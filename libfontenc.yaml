@@ -1,0 +1,26 @@
+Name: libfontenc
+Summary: X.Org X11 libfontenc runtime library
+Version: 1.0.5
+Release: 1
+Group: System/Libraries
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/lib/%{name}-%{version}.tar.bz2
+Patches:
+    - libfontenc-get-fontdir-from-pkgconfig.patch
+Description: X.Org X11 libfontenc runtime library
+
+PkgConfigBR: 
+    - xorg-macros
+    - xproto
+PkgBR:
+    - zlib-devel
+    - autoconf
+Configure: reconfigure
+SubPackages:
+    - Name: devel
+      Summary: X.Org X11 libfontenc development package
+      Group: Development/Libraries
+      Description: X.Org X11 libfontenc development package
+

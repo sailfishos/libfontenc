@@ -1,0 +1,13 @@
+* Sat Feb 27 2010 Anas Nashif <anas.nashif@intel.com> - 1.0.5
+- Updated with latest spectacle
+- Include YAML file in source rpm
+
+* Tue Feb 16 2010 Anas Nashif <anas.nashif@intel.com> - 1.0.5
+- Use spectacle
+
+* Fri Dec 11 2009 Li Peng <peng.li@intel.com> 1.0.5
+- libfontenc 1.0.5
+
+* Tue Dec 16 2008 Arjan van de Ven <arjan@linux.intel.com> 1.0.4
+- Clean up the spec
+

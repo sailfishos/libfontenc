@@ -1,0 +1,12 @@
+diff -urN libfontenc-1.0.5/configure.ac libfontenc-1.0.5.new/configure.ac
+--- libfontenc-1.0.5/configure.ac	2009-08-28 12:13:51.000000000 +0800
++++ libfontenc-1.0.5.new/configure.ac	2009-12-11 23:52:55.000000000 +0800
+@@ -37,7 +37,7 @@
+ AC_PROG_LIBTOOL
+ XORG_CWARNFLAGS
+ 
+-encodingsdir=${libdir}/X11/fonts/encodings
++encodingsdir=$(pkg-config --variable=fontdir fontutil)/encodings
+ AC_ARG_WITH(encodingsdir, AC_HELP_STRING([--with-encodingsdir=<pathname>],
+ 	[Path to font encodings]), [encodingsdir="$withval"])
+ ENCODINGSDIR="$encodingsdir"
