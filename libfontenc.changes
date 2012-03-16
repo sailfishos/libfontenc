@@ -1,3 +1,7 @@
+* Thu Mar 15 2012 Marko Saukko <marko.saukko@gmail.com> - 1.1.1
+- Update to version 1.1.1
+- Dropped libfontenc-get-fontdir-from-pkgconfig.patch as upstream now uses xorg macros to get fontdir.
+
 * Sat Feb 27 2010 Anas Nashif <anas.nashif@intel.com> - 1.0.5
 - Updated with latest spectacle
 - Include YAML file in source rpm
